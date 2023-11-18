@@ -12,6 +12,10 @@ const App = () => {
     return (
         <div className={classNames('app', {}, [theme])}>
             <Navbar />
+            <div>
+            
+            Testtt
+            </div>
             <AppRouter />
         </div>
     );
